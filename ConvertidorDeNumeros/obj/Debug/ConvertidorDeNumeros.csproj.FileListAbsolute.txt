@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\SharpDevelop Projects\ConvertidorDeNumeros\ConvertidorDeNumeros\bin\Debug\ConvertidorDeNumeros.exe.config
+C:\Users\Admin\Documents\SharpDevelop Projects\ConvertidorDeNumeros\ConvertidorDeNumeros\bin\Debug\ConvertidorDeNumeros.exe
+C:\Users\Admin\Documents\SharpDevelop Projects\ConvertidorDeNumeros\ConvertidorDeNumeros\bin\Debug\ConvertidorDeNumeros.pdb
+C:\Users\Admin\Documents\SharpDevelop Projects\ConvertidorDeNumeros\ConvertidorDeNumeros\obj\Debug\ConvertidorDeNumeros.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\SharpDevelop Projects\ConvertidorDeNumeros\ConvertidorDeNumeros\obj\Debug\ConvertidorDeNumeros.exe
+C:\Users\Admin\Documents\SharpDevelop Projects\ConvertidorDeNumeros\ConvertidorDeNumeros\obj\Debug\ConvertidorDeNumeros.pdb

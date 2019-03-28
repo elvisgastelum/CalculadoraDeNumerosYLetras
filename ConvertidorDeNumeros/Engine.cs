@@ -22,89 +22,7 @@ namespace ConvertidorDeNumeros
 		}
 		
 		
-//		string[] Unidades = {
-//			"Cero",
-//			"Uno",
-//			"Dos",
-//			"Tres",
-//			"Cuatro",
-//			"Cinco",
-//			"Seis",
-//			"Siete",
-//			"Ocho",
-//			"Nueve"
-//		};
-//		string[,] Decenas ={
-//			{
-//				"Diez",
-//				"Veinte",
-//				"Treinta",
-//				"Cuarenta",
-//				"Cincuenta",
-//				"Sesenta",
-//				"Setenta",
-//				"Ochenta",
-//				"Noventa",
-//				""
-//				
-//			},
-//			{
-//				"Cero",
-//				"Uno",
-//				"Dos",
-//				"Tres",
-//				"Cuatro",
-//				"Cinco",
-//				"Seis",
-//				"Siete",
-//				"Ocho",
-//				"Nueve"
-//			}
-//			
-//		};
-//		string[,] Centenas = {
-//			{
-//				"Ciento",
-//				"Doscientos",
-//				"Trecientos",
-//				"Cuatrocientos",
-//				"Quinientos",
-//				"Seicientos",
-//				"Setecientos",
-//				"Ochocientos",
-//				"Novecientos",
-//				""
-//				
-//			},
-//			{
-//				"Diez",
-//				"Veinte",
-//				"Treinta",
-//				"Cuarenta",
-//				"Cincuenta",
-//				"Sesenta",
-//				"Setenta",
-//				"Ochenta",
-//				"Noventa",
-//				""
-//				
-//			},
-//			
-//			{
-//				"Cero",
-//				"Uno",
-//				"Dos",
-//				"Tres",
-//				"CUnidades.Auatro",
-//				"Cinco",
-//				"Seis",
-//				"Siete",
-//				"Ocho",
-//				"Nueve"
-//			}
-//			
-//		};
-//		string Millares = "Mil";
+
 		
 		Dictionary<string, string> Unidades = new Dictionary<string, string>();
 		Dictionary<string, string> Decenas = new Dictionary<string, string>();
@@ -304,11 +222,16 @@ namespace ConvertidorDeNumeros
 					if (_numbers[0] == '9') {
 						tmp += Decenas["9"];
 					}
-					tmp += " y ";
-					//Unidades
 					if (_numbers[1] == '0') {
-						tmp += Unidades["0"];
+						return tmp;
+						
+					}else
+					{
+						tmp += " y ";
+						
 					}
+					//Unidades
+					
 					if (_numbers[1] == '1') {
 						tmp += Unidades["1"];
 					}

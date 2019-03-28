@@ -1,0 +1,3 @@
+#Ignorando bin y obj
+ConvertidorDeNumeros/bin/Debug/
+ConvertidorDeNumeros/obj/Debug/

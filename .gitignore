@@ -1,3 +1,9 @@
 #Ignorando bin y obj
 ConvertidorDeNumeros/bin/Debug/
 ConvertidorDeNumeros/obj/Debug/
+ConvertidorDeNumeros/bin/Debug/ConvertidorDeNumeros.exe
+ConvertidorDeNumeros/bin/Debug/ConvertidorDeNumeros.pdb
+ConvertidorDeNumeros/obj/Debug/ConvertidorDeNumeros.csproj.FileListAbsolute.txt
+ConvertidorDeNumeros/obj/Debug/ConvertidorDeNumeros.exe
+ConvertidorDeNumeros/obj/Debug/ConvertidorDeNumeros.pdb
+.gitignore.swp

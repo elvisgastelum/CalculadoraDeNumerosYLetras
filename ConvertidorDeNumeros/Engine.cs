@@ -763,38 +763,444 @@ namespace ConvertidorDeNumeros
 					//Centenas
 					if (_numStrArray[0] == "ciento") {
 						tmp += Centenas["ciento"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
+					
 					if (_numStrArray[0] == "doscientos") {
 						tmp += Centenas["doscientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "trescientos") {
 						tmp += Centenas["trescientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "cuatrocientos") {
 						tmp += Centenas["cuatrocientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "quinientos") {
 						tmp += Centenas["quinientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "seiscientos") {
 						tmp += Centenas["seiscientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "setecientos") {
 						tmp += Centenas["setecientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "ochocientos") {
 						tmp += Centenas["ochocientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					if (_numStrArray[0] == "novecientos") {
 						tmp += Centenas["novecientos"];
+						if(_numStrArray[1] == "uno"){
+							tmp += "0";
+							tmp += Unidades["uno"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "dos"){
+							tmp += "0";
+							tmp += Unidades["dos"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "tres"){
+							tmp += "0";
+							tmp += Unidades["tres"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cuatro"){
+							tmp += "0";
+							tmp += Unidades["cuatro"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "cinco"){
+							tmp += "0";
+							tmp += Unidades["cinco"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "seis"){
+							tmp += "0";
+							tmp += Unidades["seis"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "siete"){
+							tmp += "0";
+							tmp += Unidades["siete"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "ocho"){
+							tmp += "0";
+							tmp += Unidades["ocho"];
+							return tmp;
+						}
+						if(_numStrArray[1] == "nueve"){
+							tmp += "0";
+							tmp += Unidades["nueve"];
+							return tmp;
+						}
 						
 					}
 					

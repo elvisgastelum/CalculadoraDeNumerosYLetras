@@ -205,7 +205,7 @@ namespace ConvertidorDeNumeros
 		{
 			string tmp = "";
 			string _numStr = _num.ToLower();
-			bool _Type = true;
+			
 			string[] _numStrArray = _numStr.Split(' ');
 			int _numStrArrayInt = _numStrArray.GetLength(0);
 			
@@ -417,9 +417,13 @@ namespace ConvertidorDeNumeros
 					
 				}
 				
-				tmp += " y ";
+				
 				//Unidades
-				if (_numbers[2] != '0') {
+				if (_numbers[2] == '0') {
+					return tmp;
+					
+				}else
+				{
 					tmp += " y ";
 					
 				}
@@ -749,6 +753,133 @@ namespace ConvertidorDeNumeros
 						
 					}
 					
+					
+					
+					
+				}
+				
+				if (_numStrArrayInt == 2 || _numStrArrayInt == 3) {
+					
+					//Centenas
+					if (_numStrArray[0] == "ciento") {
+						tmp += Centenas["ciento"];
+						
+					}
+					if (_numStrArray[0] == "doscientos") {
+						tmp += Centenas["doscientos"];
+						
+					}
+					if (_numStrArray[0] == "trescientos") {
+						tmp += Centenas["trescientos"];
+						
+					}
+					if (_numStrArray[0] == "cuatrocientos") {
+						tmp += Centenas["cuatrocientos"];
+						
+					}
+					if (_numStrArray[0] == "quinientos") {
+						tmp += Centenas["quinientos"];
+						
+					}
+					if (_numStrArray[0] == "seiscientos") {
+						tmp += Centenas["seiscientos"];
+						
+					}
+					if (_numStrArray[0] == "setecientos") {
+						tmp += Centenas["setecientos"];
+						
+					}
+					if (_numStrArray[0] == "ochocientos") {
+						tmp += Centenas["ochocientos"];
+						
+					}
+					if (_numStrArray[0] == "novecientos") {
+						tmp += Centenas["novecientos"];
+						
+					}
+					
+					
+					// Decenas
+					if (_numStrArray[1] == "diez" || _numStrArray[0] == "diez") {
+						tmp += Decenas["diez"];
+						
+					}
+					if (_numStrArray[1] == "veinte" || _numStrArray[0] == "veinte") {
+						tmp += Decenas["veinte"];
+						
+					}
+					if (_numStrArray[1] == "treinta" || _numStrArray[0] == "treinta") {
+						tmp += Decenas["treinta"];
+						
+					}
+					if (_numStrArray[1] == "cuarenta" || _numStrArray[0] == "cuarenta") {
+						tmp += Decenas["cuarenta"];
+						
+					}
+					if (_numStrArray[1] == "cincuenta" || _numStrArray[0] == "cincuenta") {
+						tmp += Decenas["cincuenta"];
+						
+					}
+					if (_numStrArray[1] == "sesenta" || _numStrArray[0] == "sesenta") {
+						tmp += Decenas["sesenta"];
+						
+					}
+					if (_numStrArray[1] == "setenta" || _numStrArray[0] == "setenta") {
+						tmp += Decenas["setenta"];
+						
+					}
+					if (_numStrArray[1] == "ochenta" || _numStrArray[0] == "ochenta") {
+						tmp += Decenas["ochenta"];
+						
+					}
+					if (_numStrArray[1] == "noventa" || _numStrArray[0] == "noventa") {
+						tmp += Decenas["noventa"];
+						
+					}
+					
+					if(_numStrArrayInt == 3){
+						//Unidades
+						
+						if (_numStrArray[2] == "uno") {
+							tmp += Unidades["uno"];
+							
+						}
+						if (_numStrArray[2] == "dos") {
+							tmp += Unidades["dos"];
+							
+						}
+						if (_numStrArray[2] == "tres") {
+							tmp += Unidades["tres"];
+							
+						}
+						if (_numStrArray[2] == "cuatro") {
+							tmp += Unidades["cuatro"];
+							
+						}
+						if (_numStrArray[2] == "cinco") {
+							tmp += Unidades["cinco"];
+							
+						}
+						if (_numStrArray[2] == "seis") {
+							tmp += Unidades["seis"];
+							
+						}
+						if (_numStrArray[2] == "siete") {
+							tmp += Unidades["siete"];
+							
+						}
+						if (_numStrArray[2] == "ocho") {
+							tmp += Unidades["ocho"];
+							
+						}
+						if (_numStrArray[2] == "nueve") {
+							tmp += Unidades["nueve"];
+							
+						}
+					}else
+					{
+						tmp += "0";
+					}
 					
 					
 					

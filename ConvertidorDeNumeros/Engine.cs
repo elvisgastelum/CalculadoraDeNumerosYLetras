@@ -44,7 +44,7 @@ namespace ConvertidorDeNumeros
 			Unidades.Add("9","Nueve");
 			
 			Decenas.Add("1","Diez");
-			Decenas.Add("2","Veinte");
+			Decenas.Add("2","Veinti");
 			Decenas.Add("3","Treinta");
 			Decenas.Add("4","Cuarenta");
 			Decenas.Add("5","Cincuenta");
@@ -200,6 +200,51 @@ namespace ConvertidorDeNumeros
 					}
 					if (_numbers[0] == '2') {
 						tmp += Decenas["2"];
+						if(_numbers[1] == '1'){
+							
+							tmp += Unidades["1"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '2'){
+							
+							tmp += Unidades["2"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '3'){
+							
+							tmp += Unidades["3"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '4'){
+							
+							tmp += Unidades["4"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '5'){
+							
+							tmp += Unidades["5"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '6'){
+							
+							tmp += Unidades["6"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '7'){
+							
+							tmp += Unidades["7"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '8'){
+							
+							tmp += Unidades["8"];
+							return tmp.ToLower();
+						}
+						if(_numbers[1] == '9'){
+							
+							tmp += Unidades["9"];
+							return tmp.ToLower();
+						}
 					}
 					if (_numbers[0] == '3') {
 						tmp += Decenas["3"];
@@ -222,6 +267,8 @@ namespace ConvertidorDeNumeros
 					if (_numbers[0] == '9') {
 						tmp += Decenas["9"];
 					}
+					
+					
 					if (_numbers[1] == '0') {
 						return tmp;
 						
@@ -309,6 +356,51 @@ namespace ConvertidorDeNumeros
 				}
 				if (_numbers[1] == '2') {
 					tmp += Decenas["2"];
+					if(_numbers[1] == '1'){
+							
+							tmp += Unidades["1"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '2'){
+							
+							tmp += Unidades["2"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '3'){
+							
+							tmp += Unidades["3"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '4'){
+							
+							tmp += Unidades["4"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '5'){
+							
+							tmp += Unidades["5"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '6'){
+							
+							tmp += Unidades["6"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '7'){
+							
+							tmp += Unidades["7"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '8'){
+							
+							tmp += Unidades["8"];
+							return tmp.ToLower();
+						}
+						if(_numbers[2] == '9'){
+							
+							tmp += Unidades["9"];
+							return tmp.ToLower();
+						}
 					
 				}
 				if (_numbers[1] == '3') {
@@ -343,7 +435,7 @@ namespace ConvertidorDeNumeros
 				
 				//Unidades
 				if (_numbers[2] == '0') {
-					return tmp;
+					return tmp.ToLower();
 					
 				}else
 				{
@@ -1222,7 +1314,7 @@ namespace ConvertidorDeNumeros
 			}	
 				
 			
-			return tmp;
+			return tmp.ToLower();
 		}
 		
 		

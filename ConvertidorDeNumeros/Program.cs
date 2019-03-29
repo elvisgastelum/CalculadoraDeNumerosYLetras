@@ -17,22 +17,46 @@ namespace ConvertidorDeNumeros
 		public static void Main(string[] args)
 		{
 			
-			Engine Convertir = new Engine();
-			Convertir.AddData();
+			Calcular Calcula = new Calcular();
+			
+			int resultado = 0;
+			int x = 0;
+			int y = 0;
+			bool _xx = false;
+			bool _yy = false;
+			Console.Write("Escriba el primer numero: ");
+			string _x = Console.ReadLine();
+			Console.Write("Escriba el segundo numero: ");
+			string _y = Console.ReadLine();
+			
+			try {
+				x = Convert.ToInt32(_x);
+			} catch (FormatException) {
+				
+				_xx = true;
+			}
+			
+			try {
+				y = Convert.ToInt32(_y);
+			} catch (FormatException) {
+				
+				_yy = true;
+			}
+			
+			if (_xx == false && _yy == false) {
+				resultado = Calcula.Suma(x,y);
+			}
+			else if(_xx == false && _yy == true){
+				resultado = Calcula.Suma(x,_y);
+			}else if(_xx == true && _yy == false){
+				resultado = Calcula.Suma(_x,y);
+			}else if(_xx == true && _yy == true){
+				resultado = Calcula.Suma(_x,_y);
+			}
+			
+			Console.WriteLine("El resultado se la suma es: {0}", resultado);
 			
 			
-			Console.Write("Escriba numero: ");
-			string _num = Console.ReadLine();
-			// Engine.Split, Crea un arreglo de chars apartir de un string mandado
-			char[] NumeroArray = Engine.Split(_num);
-			
-			
-			var num = Convertir.Dynamic(NumeroArray, _num);
-			
-			
-			
-			
-			Console.WriteLine(num);
 			
 			
 			

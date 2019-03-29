@@ -1,4 +1,4 @@
-#Ignorando bin y obj
+#Ignorando las carpetas bin y obj
 ConvertidorDeNumeros/bin/Debug/
 ConvertidorDeNumeros/obj/Debug/
 ConvertidorDeNumeros/bin/Debug/ConvertidorDeNumeros.exe
@@ -7,3 +7,4 @@ ConvertidorDeNumeros/obj/Debug/ConvertidorDeNumeros.csproj.FileListAbsolute.txt
 ConvertidorDeNumeros/obj/Debug/ConvertidorDeNumeros.exe
 ConvertidorDeNumeros/obj/Debug/ConvertidorDeNumeros.pdb
 .gitignore.swp
+.*itignore*

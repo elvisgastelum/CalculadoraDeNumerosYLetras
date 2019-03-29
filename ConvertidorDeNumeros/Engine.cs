@@ -443,7 +443,8 @@ namespace ConvertidorDeNumeros
 					}
 				
 					if (_numStr == "diez") {
-						tmp += Unidades["diez"];
+						tmp += Decenas["diez"];
+						
 					}
 				
 					if (_numStr == "once") {
@@ -468,6 +469,7 @@ namespace ConvertidorDeNumeros
 				
 					if (_numStr == "veinte") {
 						tmp += Decenas["veinte"];
+						tmp += "0";
 					}
 				
 					if (_numStr == "treinta") {
